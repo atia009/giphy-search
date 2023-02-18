@@ -5,7 +5,7 @@ const Img = (() => {
   document.body.appendChild(img);
 
   // functions
-  function setImg(query = "dog") {
+  function setImg(query) {
     fetch(
       `https://api.giphy.com/v1/gifs/translate?api_key=z4Q6aWFpoFeVBHp9mnmPPOmpENLtL8rG&s=${query}`,
       { mode: "cors" }
@@ -15,7 +15,6 @@ const Img = (() => {
         img.src = data.data.images.original.url;
       });
   }
-  setImg();
 
   // public methods
   return { setImg };
