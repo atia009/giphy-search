@@ -13,6 +13,10 @@ const Img = (() => {
       .then((response) => response.json())
       .then((data) => {
         img.src = data.data.images.original.url;
+      })
+      .catch(() => {
+        img.src =
+          "https://media0.giphy.com/media/8L0Pky6C83SzkzU55a/giphy.gif?cid=8b15c4243v1zf9cy7retvj9vlef329cmxcvl6e9aulkql30e&rid=giphy.gif&ct=g";
       });
   }
 
