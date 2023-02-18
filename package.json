@@ -1,0 +1,31 @@
+{
+  "name": "giphy-search",
+  "version": "1.0.0",
+  "description": "gif search engine using giphy api.",
+  "private": "true",
+  "scripts": {
+    "build": "webpack --progress",
+    "start": "webpack serve --open",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atia009/giphy-search.git"
+  },
+  "author": "Aaron Tia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atia009/giphy-search/issues"
+  },
+  "homepage": "https://github.com/atia009/giphy-search#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
