@@ -18,6 +18,8 @@ Web app where users can search for gifs using the Giphy API.
 
 ## Demo
 
+The portfolio website is hosted with Netlify and can be found at [thegiphysearch.netlify.app/](https://thegiphysearch.netlify.app/).
+
 <a name="features"></a>
 
 ## Features
@@ -31,6 +33,7 @@ Web app where users can search for gifs using the Giphy API.
 ## Technologies
 
 - HTML5
+- CSS
 - JavaScript
 - Webpack
 
