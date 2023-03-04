@@ -2,6 +2,7 @@
   --bg-color: #fffcf2;
   --font-color: #403d39;
   --btn-color: #ccc5b9;
+  --hover-color: #59544b;
 }
 
 html {
@@ -57,6 +58,11 @@ button {
   margin: 0 10px;
   padding: 10px 20px;
   text-transform: uppercase;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
 }
 
 input {
