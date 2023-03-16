@@ -12,13 +12,13 @@
 
 ## Introduction
 
-Web app where users can search for gifs using the Giphy API.
+Web app where users can search for gifs using the Giphy API. Objective of this project is to work with APIs and promises.
 
 <a name="demo"></a>
 
 ## Demo
 
-The portfolio website is hosted with Netlify and can be found at [thegiphysearch.netlify.app/](https://thegiphysearch.netlify.app/).
+Giphy Search is hosted with Netlify and can be found at [thegiphysearch.netlify.app/](https://thegiphysearch.netlify.app/).
 
 <a name="features"></a>
 
